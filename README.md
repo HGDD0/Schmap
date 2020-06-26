@@ -11,5 +11,5 @@ A script used to generate citation graphs
 3. 找到 #进行多少轮搜索 for t in range(1,4): 修改为你想要的轮数，(1,2)即进行一轮，只产生一个节点，一般建议不做修改以取得网络规模和网速限制的balance
 
 常见bug：
-1. 运行爬虫的时候element not found ：多半是网络不好，到了设置的超时时间网页还没加载完
+1. 运行爬虫的时候element not found ：多半是网络不好，到了设置的超时时间网页还没加载完，挂学校vpn 多 试 （十）几 次 就好
 2. 运行关键词提取的时候提示次数不足： 当天次数用完了，改天再说，或者自己去https://www.textrazor.com/ 注册一个账号，替换代码开始的textrazor.api_key
