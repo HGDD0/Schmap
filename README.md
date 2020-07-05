@@ -13,3 +13,8 @@ A script used to generate citation graphs
 常见bug：
 1. 运行爬虫的时候element not found ：多半是网络不好，到了设置的超时时间网页还没加载完，挂学校vpn 多 试 （十）几 次 就好
 2. 运行关键词提取的时候提示次数不足： 当天次数用完了，改天再说，或者自己去https://www.textrazor.com/ 注册一个账号，替换代码开始的textrazor.api_key
+
+
+2020/7/5 更新：
+1. 修复了一些bug
+2. 更新了演示实例，这次是在已知Roderich Süssmuth， Christopher T. Walsh， Mohamed A. Marahiel 和 David F. Ackerley 均为大佬的前提下，测试从Roderich开始能否找到其余三人。结果是除了David均找到了，并且在网络中标注为重要节点，找不到David是因为他不跟这三个人玩
